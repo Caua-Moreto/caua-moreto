@@ -44,6 +44,11 @@
   <a href="https://tryhackme.com/p/cauamoreto" target="_blank">
     <img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="tryhackme logo"  />
   </a>
+  <br/>
+  <br/>
+  <a>
+    <img src="https://tryhackme-badges.s3.amazonaws.com/cauamoreto.png" alt="Your Image Badge" />
+  </a>
 </div>
 
 ###
