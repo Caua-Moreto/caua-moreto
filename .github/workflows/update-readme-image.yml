@@ -1,0 +1,35 @@
+name: Update README Image Cache Buster
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  # Permite que rode manualmente pela aba "Actions"
+  workflow_dispatch:
+
+jobs:
+  update-image:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout do código do repositório
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Encontra a URL da imagem e a atualiza com o timestamp atual
+      # Este comando usa 'sed' para buscar a linha e substituir o parâmetro.
+      - name: Update image URL with timestamp
+        run: |
+          sed -i "s|cauamoreto.png?v=[0-9]*|cauamoreto.png?v=$(date +%s)|g" README.md
+
+      # Faz o commit das alterações se houver alguma
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          # O comando abaixo verifica se houve mudanças. Se sim, ele commita.
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: Update image cache buster to refresh badge"
+            git push
+          else
+            echo "No changes to commit."
+          fi
