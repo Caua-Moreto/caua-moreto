@@ -9,6 +9,8 @@ on:
 jobs:
   update-image:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # Checkout do código do repositório
       - name: Check out repository
