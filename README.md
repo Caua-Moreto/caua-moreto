@@ -47,7 +47,7 @@
   <br/>
   <br/>
   <a>
-    <img src="https://tryhackme-badges.s3.amazonaws.com/cauamoreto.png?v=0" alt="Your Image Badge" />
+    <img src="https://tryhackme-badges.s3.amazonaws.com/cauamoreto.png?v=1757516619" alt="Your Image Badge" />
   </a>
 </div>
 
