@@ -21,9 +21,9 @@
 
   ╭─────────────────────────────────────────────────────╮
   │  Name......: Cauã Moreto                            │
-  │  Role......: Cybersecurity Enthusiast / Pentester   │
+  │  Role......: Cybersecurity Enthusiast / Blue Team   │
   │  Location..: Atibaia, SP — Brasil 🇧🇷                │
-  │  Company...: Camaco Brasil                          │
+  │  Company...: Litens                                 │
   │  Website...: morsec.dev                             │
   │  Status....: [ ONLINE ] — Always learning           │
   ╰─────────────────────────────────────────────────────╯
