@@ -97,7 +97,7 @@
 ## `> tryhackme --profile cauamoreto`
 
 <div align="center">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/cauamoreto.png?v=1793026662" alt="TryHackMe Badge" />
+  <img src="https://tryhackme-badges.s3.amazonaws.com/cauamoreto.png?v=1793110240" alt="TryHackMe Badge" />
 </div>
 
 ---
